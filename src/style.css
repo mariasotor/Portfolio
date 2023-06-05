@@ -1,5 +1,6 @@
 :root {
   --primary-color: #bd4a6e;
+  --secondary-color: #feedf3;
   --border-color: #d4d4d421;
 }
 
@@ -21,6 +22,10 @@ h3 {
 p {
   font-size: 20px;
   line-height: 1.5;
+}
+
+.bg-custom {
+  background-color: var(--secondary-color);
 }
 
 .website-wrapper {
@@ -128,7 +133,7 @@ p {
 }
 
 .contact-me {
-  background-color: #bd4a6e30;
+  background-color: var(--secondary-color);
   width: 100%;
   padding: 40px;
 }
